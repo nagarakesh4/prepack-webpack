@@ -1,6 +1,6 @@
 # prepack-webpack
 
-Example for integrating webpack with prepack (https://github.com/facebook/prepack) using prepack-webpack-plugin.
+Example for Getting started and integrating webpack with prepack (https://github.com/facebook/prepack) using prepack-webpack-plugin.
 
 ## With webpack
 ![bundle.js takes 3.4 kb](https://github.com/nagarakesh4/prepack-webpack/blob/master/withoutRemovingCompiletime.png)
@@ -18,9 +18,9 @@ Example for integrating webpack with prepack (https://github.com/facebook/prepac
 ### verify without prepack-webpack plugin
 4. remove plugin code from webpack.config.js as shown below
 ![webpack.config.js without prepack-webpack plugin](https://github.com/nagarakesh4/prepack-webpack/blob/master/webpack-config-without-prepack-plugin.png)
-5. run 'webpack' and check the file size
+5. run 'webpack' and check the bundle.js file
 
 ### Install prepack-webpack-plugin
 6. add prepack-webpack-plugin code to webpack.config.js (view code in this repository)
 7. install plugin - yarn add prepack-webpack-plugin
-8. run 'webpack' and check the file size
+8. run 'webpack' and check the bundle.js file
